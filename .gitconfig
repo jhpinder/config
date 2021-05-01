@@ -28,3 +28,6 @@
 	ff = only
 [push]
 	default = simple
+[user]
+  email = jhpinder@gmail.com
+  name = James Pinder
