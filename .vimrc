@@ -4,8 +4,8 @@ set colorcolumn=120
 set cursorcolumn
 set cursorline
 set encoding=utf-8
-set expandtab
-set fillchars=vert:\ 
+set fillchars+=stlnc:-
+set fillchars+=vert:\ 
 set hlsearch
 set ignorecase
 set incsearch
@@ -19,10 +19,10 @@ set nowrap
 set number
 set ruler
 set scrolloff=0
-set shiftwidth=4
+set shiftwidth=2
 set splitbelow
 set splitright
-set tabstop=4
+set tabstop=2
 set viminfo=
 set wildignorecase
 syntax on
@@ -31,8 +31,11 @@ autocmd colorscheme * highlight ColorColumn     cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorColumn    cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorLine      cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorLineNr    cterm=none  ctermbg=Black   ctermfg=Blue
+autocmd colorscheme * highlight EndOfBuffer     cterm=none  ctermbg=none
+autocmd colorscheme * highlight Error           cterm=none  ctermbg=Magenta
 autocmd colorscheme * highlight LineNr          cterm=none  ctermbg=Black   ctermfg=Magenta
-autocmd colorscheme * highlight MatchParen      cterm=none  ctermbg=Black
+autocmd colorscheme * highlight MatchParen      cterm=none  ctermbg=Magenta ctermfg=Black
+autocmd colorscheme * highlight Normal          cterm=none  ctermbg=none
 autocmd colorscheme * highlight NonText         cterm=none                  ctermfg=Black
 autocmd colorscheme * highlight Search          cterm=none  ctermbg=Blue    ctermfg=White
 autocmd colorscheme * highlight StatusLine      cterm=none  ctermbg=Black
@@ -55,3 +58,4 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
+nmap \ <Esc>:noh<Return>
