@@ -5,4 +5,4 @@
 --color-match=on_black
 --follow
 --heading
---ignore-case
+--smart-case
