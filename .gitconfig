@@ -1,3 +1,5 @@
+[advice]
+	detachedHead = false
 [clean]
 	requireForce = false
 [color]
@@ -13,20 +15,32 @@
 	localBranch = green bold
 	remoteBranch = red bold
 [core]
+	abbrev = 8
 	autocrlf = input
+	pager = delta --color-only
 	safecrlf = false
 	whitespace = cr-at-eol
+[delta]
+	line-numbers = true
+	syntax-theme = zenburn
 [diff]
 	algorithm = minimal
-	context = 2
+	context = 1
 	noprefix = true
 [fetch]
 	prune = true
+[init]
+	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only
 [log]
 	decorate = false
+[merge]
+	ff = false
 [pull]
 	ff = only
 [push]
+	autoSetupRemote = true
 	default = simple
 [user]
   email = jhpinder@gmail.com

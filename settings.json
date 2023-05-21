@@ -1,0 +1,27 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [
+    100
+  ],
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "telemetry.telemetryLevel": "off",
+  "vim.cursorStylePerMode.insert": "underline-thin",
+  "vim.cursorStylePerMode.normal": "underline-thin",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editor.showTabs": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#000000",
+    "statusBar.background": "#000000"
+  }
+}

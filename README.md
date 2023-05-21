@@ -1,5 +1,4 @@
-config
-==
+# config
 Install:
 This copies the files from this directory into the home directory.
 ```
