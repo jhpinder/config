@@ -6,6 +6,8 @@ alias la="ll -A"
 alias lh="ll -d .?*"
 alias ll="ls -hlp"
 alias lp="ll -d *"
+alias nosleep="sudo pmset -a disablesleep 1"
+alias yessleep="sudo pmset -a disablesleep 0"
 
 export GOPATH="/opt/go"
 export GOPROXY="https://proxy.golang.org"
