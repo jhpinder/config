@@ -1,4 +1,4 @@
-alias gitl="git log --decorate --graph --max-count 6 --oneline"
+alias gitl="git log --decorate --graph --max-count 8 --oneline"
 alias gits="git status --branch --short"
 alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
@@ -10,7 +10,6 @@ alias nosleep="sudo pmset -a disablesleep 1"
 alias yessleep="sudo pmset -a disablesleep 0"
 
 export GOPATH="/opt/go"
-export GOPROXY="https://proxy.golang.org"
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
 export LESS="-FIRXx2"
