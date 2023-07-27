@@ -5,9 +5,11 @@ files=(
 	.gitconfig
 	.inputrc
 	.profile
+	.zprofile
 	.ssh/config
 	.tmux.conf
 	.vimrc
+	.zshrc
 )
 
 for i in ${files[@]}; do
