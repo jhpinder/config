@@ -5,10 +5,10 @@ files=(
 	.gitconfig
 	.inputrc
 	.profile
-	.zprofile
 	.ssh/config
 	.tmux.conf
 	.vimrc
+	.zprofile
 	.zshrc
 )
 
