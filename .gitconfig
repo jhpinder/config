@@ -14,6 +14,8 @@
 [color "status"]
 	localBranch = green bold
 	remoteBranch = red bold
+[commit]
+	gpgsign = false
 [core]
 	abbrev = 8
 	autocrlf = input
@@ -22,11 +24,15 @@
 	whitespace = cr-at-eol
 [delta]
 	line-numbers = true
-	syntax-theme = zenburn
+	minus-style = red
+	minus-emph-style = normal 052
+	plus-style = green
+	plus-emph-style = normal 235
+	syntax-theme = none
+	tabs = 2
 [diff]
 	algorithm = minimal
-	context = 1
-	noprefix = true
+	context = 0
 [fetch]
 	prune = true
 [init]
