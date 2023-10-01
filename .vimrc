@@ -1,14 +1,18 @@
+set autochdir
 set autoindent
 set backspace=2
 set colorcolumn=100
 set cursorcolumn
 set cursorline
+set directory=/tmp
 set encoding=utf-8
+set expandtab
 set fillchars+=vert:\ 
 set hlsearch
 set ignorecase
 set incsearch
-set laststatus=1
+set iskeyword+=-
+set laststatus=2
 set list
 set listchars=tab:\ \ 
 set mouse=a
@@ -18,13 +22,17 @@ set nowrap
 set number
 set ruler
 set scrolloff=0
+set shiftround
 set shiftwidth=2
+set smartcase
 set softtabstop=2
 set splitbelow
+set splitkeep=screen
 set splitright
 set tabstop=2
 set viminfo=
 set wildignorecase
+set wildmenu
 syntax on
 
 autocmd colorscheme * highlight ColorColumn   cterm=none  ctermbg=233
@@ -56,4 +64,4 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
-nmap \ <Esc>:noh<Return><C-l>
+nmap \ :noh\|echo<Return>
