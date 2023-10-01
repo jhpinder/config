@@ -9,8 +9,6 @@ alias lp="ll -d *"
 alias nosleep="sudo pmset -a disablesleep 1"
 alias yessleep="sudo pmset -a disablesleep 0"
 
-export MVN_USERNAME="james_pinder"
-export MVN_PASSWORD="DuneSushiRingo"
 export GOPATH="/opt/go"
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
