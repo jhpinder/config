@@ -2,6 +2,7 @@
 
 files=(
 	.ackrc
+  .config/bat/config
 	.gitconfig
 	.inputrc
 	.profile

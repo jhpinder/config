@@ -39,8 +39,6 @@
 	defaultBranch = main
 [interactive]
 	diffFilter = delta --color-only
-[log]
-	decorate = false
 [merge]
 	ff = false
 [pull]

@@ -2,6 +2,7 @@
 
 files=(
 	.ackrc
+  .config/bat/config
 	.gitconfig
 	.inputrc
 	.profile
@@ -12,10 +13,8 @@ files=(
 	.zshrc
 )
 
-mkdir -p ~/.ssh
-
 for i in ${files[@]}; do
-	cp ./$i ~/$i
+  install -m 0644 ./$i ~/$i
 done
 
 touch ~/.hushlogin

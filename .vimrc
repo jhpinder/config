@@ -1,4 +1,3 @@
-set autochdir
 set autoindent
 set backspace=2
 set colorcolumn=100
@@ -46,8 +45,8 @@ autocmd colorscheme * highlight MatchParen    cterm=none  ctermbg=239
 autocmd colorscheme * highlight Search        cterm=none  ctermbg=053 ctermfg=251
 autocmd colorscheme * highlight StatusLine    cterm=none  ctermbg=233 ctermfg=251
 autocmd colorscheme * highlight StatusLineNC  cterm=none  ctermbg=233 ctermfg=239
-autocmd colorscheme * highlight TabLine       cterm=none  ctermbg=016 ctermfg=239
-autocmd colorscheme * highlight TabLineFill   cterm=none  ctermbg=233
+autocmd colorscheme * highlight TabLine       cterm=none  ctermbg=016 ctermfg=088
+autocmd colorscheme * highlight TabLineFill   cterm=none  ctermbg=016
 autocmd colorscheme * highlight TabLineSel    cterm=none  ctermbg=016 ctermfg=251
 autocmd colorscheme * highlight Todo          cterm=none  ctermbg=016 ctermfg=196
 autocmd colorscheme * highlight VertSplit     cterm=none  ctermbg=233 ctermfg=233

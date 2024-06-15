@@ -1,11 +1,12 @@
-alias gitl="git log --decorate --graph --max-count 8 --oneline"
+alias di="delta --color-only"
+alias gitl="git log --all --graph --max-count 20 --oneline"
 alias gits="git status --branch --short"
 alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
 alias la="ll -A"
 alias lh="ll -d .?*"
 alias ll="ls -hlp"
-alias lp="ll -d *"
+alias lp="ls -p"
 alias nosleep="sudo pmset -a disablesleep 1"
 alias yessleep="sudo pmset -a disablesleep 0"
 
@@ -20,5 +21,5 @@ export PS1="\$PWD\n\\$ "
 export PS2=""
 export VISUAL="vim"
 
-function cd() { clear; builtin cd "$@"; ll; }
-function ff() { find . -iname "*$1*"; }
+function cd { clear; builtin cd "$@"; ll; }
+function ff { find . -iname "*$1*"; }
