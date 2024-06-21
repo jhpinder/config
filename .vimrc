@@ -32,6 +32,7 @@ set tabstop=2
 set viminfo=
 set wildignorecase
 set wildmenu
+set wildmode=longest,list
 syntax on
 
 autocmd colorscheme * highlight ColorColumn   cterm=none  ctermbg=233
